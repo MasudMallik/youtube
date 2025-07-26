@@ -16,7 +16,7 @@ def download_audio(link="",file_name=""):
                 st.success("audio succesfully downloaded....")
         except Exception as e:
             st.warning(e)
-    st.audio(down,format="audio/mp3")
+    st.audio(down,format="audio/mpeg")
 
 url=st.text_input("enter your url here")
 file_name=st.text_input("please enter the audio name")
